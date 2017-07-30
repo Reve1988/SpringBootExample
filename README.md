@@ -67,3 +67,12 @@ User 목록 보기
 User 삭제
 > request : curl -X DELETE localhost:8080/user/1\
 > response : OK
+
+## 2. Spring security 적용해보기
+
+### 1) pom.xml
+pom.xml파일에 security 의존성을 추가한다.
+
+> groupId : org.springframework.boot\
+> artifactId : spring-boot-starter-security
+
