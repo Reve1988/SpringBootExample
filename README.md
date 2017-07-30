@@ -76,3 +76,11 @@ pom.xml파일에 security 의존성을 추가한다.
 > groupId : org.springframework.boot\
 > artifactId : spring-boot-starter-security
 
+### 2) 예제 돌려보기
+브라우져 접속을 통한 공개 주소 테스트
+> request : http://localhost:8080/simple/hello \
+> response : Hello!!
+
+브라우져 접속을 통한 권한이 필요한 주소 테스트
+> request : http://localhost:8080/simple/private \
+> response : 로그인 페이지로 리다이렉트 
